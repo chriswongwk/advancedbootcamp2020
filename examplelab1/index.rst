@@ -1,4 +1,4 @@
-.. title:: Nutanix .Next Files HOL
+.. title:: Nutanix Files Hands On Lab
 
 .. toctree::
   :maxdepth: 2
