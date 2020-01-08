@@ -3,23 +3,25 @@
 .. toctree::
   :maxdepth: 4
   :caption: Day_1_morning_labs
-  :name: _Day_1_morning_labs
+  :name: _Day_1_morning_labs_15/1
   :hidden:
 
   File/File
   hycu/hycu
-  tools_vms/windows_tools_vm
-  tools_vms/linux_tools_vm
-
 
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
+  :maxdepth: 5
+  :caption: Day_1_afternoon_labs
+  :name: _Day_1_afternoon_labs_15/1
   :hidden:
 
-  examplelab3/examplelab3
+  dr_runbooks/dr_runbooks
+  what_is_prism_pro/what_is_prism_pro
+  prism_pro_efficiency_anomaly/prism_pro_efficiency_anomaly
+  prism_pro_resource_planning/prism_pro_resource_planning
+  prism_pro_xplay/prism_pro_xplay
+
 
 .. toctree::
   :maxdepth: 2
@@ -27,8 +29,8 @@
   :name: _appendix
   :hidden:
 
-  appendix/glossary
-  appendix/otherstuff
+  tools_vms/windows_tools_vm
+  tools_vms/linux_tools_vm
 
 .. _getting_started:
 
