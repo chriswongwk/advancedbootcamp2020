@@ -3,7 +3,7 @@
 .. toctree::
   :maxdepth: 4
   :caption: Day_1_morning_labs
-  :name: _Day_1_morning_labs_15/1
+  :name: _Day_1_morning_labs_15/1/20
   :hidden:
 
   File/File
@@ -13,7 +13,7 @@
 .. toctree::
   :maxdepth: 5
   :caption: Day_1_afternoon_labs
-  :name: _Day_1_afternoon_labs_15/1
+  :name: _Day_1_afternoon_labs_15/1/20
   :hidden:
 
   dr_runbooks/dr_runbooks
@@ -22,6 +22,29 @@
   prism_pro_resource_planning/prism_pro_resource_planning
   prism_pro_xplay/prism_pro_xplay
 
+.. toctree::
+  :maxdepth: 5
+  :caption: Day_2_morning_labs
+  :name: _Day_2_morning_labs_16/1/20
+  :hidden:
+
+  what_is_calm/what_is_calm
+  calm_enable/calm_enable
+  calm_project/calm_project
+  calm_linux/calm_linux
+  calm_win/calm_win
+
+
+.. toctree::
+  :maxdepth: 5
+  :caption: Day_2_afternoon_labs
+  :name: _Day_2_afternoon_labs_16/1/20
+  :hidden:
+
+  era_deploy_and_register/era_deploy_and_register
+  era_provision_postgresdb/era_provision_postgresdb
+  era_clone_postgresdb/era_clone_postgresdb
+  Karbon/index
 
 .. toctree::
   :maxdepth: 2
