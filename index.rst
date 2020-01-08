@@ -1,15 +1,15 @@
 .. title:: Introduction to Nutanix AHV
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 4
   :caption: Day_1_morning_labs
   :name: _Day_1_morning_labs
   :hidden:
 
-  File/index
+  File/File
   hycu/hycu
   tools_vms/windows_tools_vm
-  tools_vms/windows_tools_vm
+  tools_vms/linux_tools_vm
 
 
 
