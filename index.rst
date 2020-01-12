@@ -63,3 +63,62 @@
 Getting Started
 ---------------
 
+Welcome to Nutanix Advanced Technical Bootcamp Hong Kong ! 
+
+Please follow to the lab guides and complete your labs. 
+
+You should have one lab access info. If you don't, please seek help from your instructor.
+
+If you have any questions, please feel free to ask.
+
+
+
+
+Expected rundown (Day 1, 15/1)
+ 
+
+9:30am Registration
+
+9:45am Workshop starts, File and Block services. 
+
+10:45am Morning break
+
+11:00am Hands on Lab
+
+12:30pm Lunch
+
+2:00pm Disaster Recovery and Runbook Automation and Hands on Lab 
+
+3:30pm Afternoon  break
+
+3:45pm Automated Operation Management
+
+4:00pm Hands on Lab
+
+5:00pm End
+ 
+
+
+Expected rundown (Day 2, 16/1)
+ 
+
+9:30am Registration
+
+9:45am Self-Service and App-Centric Automation 
+
+10:45am Morning break
+
+11:00am Hands on Lab
+
+12:30pm Lunch
+
+2:00pm Database Provisioning and Copy Data Management and Hands on Lab 
+
+3:30pm Afternoon  break
+
+3:45pm Container
+
+4:00pm Hands on Lab
+
+5:00pm End
+
