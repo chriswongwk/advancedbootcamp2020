@@ -24,11 +24,12 @@
   prism_pro_xplay/prism_pro_xplay
 
 .. toctree::
-  :maxdepth: 5
+  :maxdepth: 6
   :caption: Day_2_morning_labs
   :name: _Day_2_morning_labs_16/1/20
   :hidden:
 
+  calm_projects/calm_projects
   what_is_calm/what_is_calm
   calm_enable/calm_enable
   calm_project/calm_project
