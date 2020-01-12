@@ -26,11 +26,11 @@ Lab Setup
 
 For this lab you will be using the **Prism Central IP** you were assigned as your primary site, as well as the **Secondary PC IP** assigned in :ref:`clusterassignments`.
 
-This lab depends on the availability of a multi-tier **Wordpress** web application.
+This lab depends on the availability of a multi-tier **Taskmanager** web application.
 
-Refer to the :ref:`wordpress` lab for instructions on importing and launching the completed **Wordpress** blueprint.
+Refer to the :ref:`taskman` lab for instructions on importing and launching the completed **Taskmanager** blueprint.
 
-Once you have initiated the **Wordpress** deployment, you can proceed with the lab below.
+Once you have initiated the **Taskmanager** deployment, you can proceed with the lab below.
 
 Create Category
 ...............
@@ -43,6 +43,8 @@ Create Category
    - **Purpose** - DR Runbooks
    - **Values**  - DB
    - **Values**  - web
+   - **Values**  - Loadbalancer
+   
 
    .. figure:: images/drrunbooks_01.png
 
