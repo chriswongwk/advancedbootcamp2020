@@ -1,7 +1,7 @@
 .. _prism_pro_xplay:
 
 --------------------------------------------
-Prism Pro: X-Play
+(Optional) Prism Pro: X-Play
 --------------------------------------------
 
 Overview
