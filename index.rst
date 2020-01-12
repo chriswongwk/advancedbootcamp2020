@@ -11,11 +11,12 @@
 
 
 .. toctree::
-  :maxdepth: 5
+  :maxdepth: 6
   :caption: Day_1_afternoon_labs
   :name: _Day_1_afternoon_labs_15/1/20
   :hidden:
 
+  wordpress/wordpress
   dr_runbooks/dr_runbooks
   what_is_prism_pro/what_is_prism_pro
   prism_pro_efficiency_anomaly/prism_pro_efficiency_anomaly
