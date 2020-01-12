@@ -16,7 +16,7 @@
   :name: _Day_1_afternoon_labs_15/1/20
   :hidden:
 
-  wordpress/wordpress
+  taskman/taskman
   dr_runbooks/dr_runbooks
   what_is_prism_pro/what_is_prism_pro
   prism_pro_efficiency_anomaly/prism_pro_efficiency_anomaly
