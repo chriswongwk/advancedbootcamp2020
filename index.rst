@@ -65,17 +65,18 @@ Getting Started
 
 Welcome to Nutanix Advanced Technical Bootcamp Hong Kong ! 
 
-Please follow to the lab guides and complete your labs. 
+Please follow the lab guides and complete your **labs**. 
 
-You should have one lab access info. If you don't, please seek help from your instructor.
+You should have one page of lab access info. **If you don't, please seek help from your instructor**.
 
 If you have any questions, please feel free to ask.
 
 
 
-
+-----------------------------------
 Expected rundown (Day 1, 15/1)
- 
+-----------------------------------
+
 
 9:30am Registration
 
@@ -99,8 +100,11 @@ Expected rundown (Day 1, 15/1)
  
 
 
+
+-----------------------------------
 Expected rundown (Day 2, 16/1)
- 
+-----------------------------------
+
 
 9:30am Registration
 
