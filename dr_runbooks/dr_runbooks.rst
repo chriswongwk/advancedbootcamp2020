@@ -55,19 +55,25 @@ Assign Category
 
 #. In **Prism Central** > select :fa:`bars` **> Virtual Infrastructure > VMs**.
 
-#. Select the DRDB VM you created, and click **Manage Categories** from the **Actions** dropdown.
+#. Select the XYZ-WebServer-0 and XYZ-WebServer-1 VM you created, and click **Manage Categories** from the **Actions** dropdown.
 
    .. figure:: images/drrunbooks_02.png
 
-#. Search for *Initials*-**DR** you just created, and select *Initials*-**DR:DB**.
+#. Search for *Initials*-**DR** you just created, and select *Initials*-**DR:web**.
 
    .. figure:: images/drrunbooks_03.png
 
 #. Click **Save**.
 
-#. Select the DRWeb VM you created, and click **Manage Categories** from the **Actions** dropdown.
+#. Select the XYZ-MYSQL-0 VM you created, and click **Manage Categories** from the **Actions** dropdown.
 
-#. Search for *Initials*-**DR** you just created, and select *Initials*-**DR:Web**.
+#. Search for *Initials*-**DR** you just created, and select *Initials*-**DR:DB**.
+
+#. Click **Save**.
+
+#. Select the XYZ-HAProxy-0 VM you created, and click **Manage Categories** from the **Actions** dropdown.
+
+#. Search for *Initials*-**DR** you just created, and select *Initials*-**DR:Loadbalancer**.
 
 #. Click **Save**.
 
@@ -104,7 +110,7 @@ Leap works with pairs of physically isolated locations called availability zones
    - **Availability Zone Type**  - Physical location
    - **IP Address for Remote PC**  - *Assigned DR PC IP*
    - **Username**  - admin
-   - **Password**  - techX2019!
+   - **Password**  - partnerSE/4u
 
    .. figure:: images/drrunbooks_04.png
 
@@ -126,7 +132,7 @@ Enable Leap and Connect Availability Zone (Remote)
    - **Availability Zone Type**  - Physical location
    - **IP Address for Remote PC**  - *Assigned PC IP*
    - **Username**  - admin
-   - **Password**  - techX2019!
+   - **Password**  - partnerSE/4u
 
    .. figure:: images/drrunbooks_05.png
 
@@ -179,7 +185,7 @@ Create Recovery Plan
 #. Select **+ Add Entities**.
 
    - **Search Entities by**  - VM Name
-   - Add *DRDB1 - DRDB12 based on assignment*
+   - Add your database server  **XYZ**-MYSQL-0
    - Select **Add**.
 
    .. figure:: images/drrunbooks_07.png
@@ -191,7 +197,7 @@ Create Recovery Plan
 #. Select **+ Add Entities**.
 
    - **Search Entities by**  - VM Name
-   - Add *DRWeb1 - DRWeb12 based on assignment*
+   - Add your Web server  **XYZ**-WebServer-0 and **XYZ**-WebServer-1
    - Select **Add**.
 
    .. note::
@@ -199,6 +205,18 @@ Create Recovery Plan
      It can take up to 5 minutes for the individual VMs to be added to the protection policy. If you don’t want to wait, you can manually protect the VM by using “Protect” on the VM menu in PC.
 
    Next you will add a delay between stages 1 and 2 for 60 seconds to allow the database to become available before the web front end boots.
+
+#. Click **+ Add Delay**.
+
+   - **Seconds** - 60
+
+#. Click **Add**.
+
+#. Select **+ Add Entities**.
+
+   - **Search Entities by**  - VM Name
+   - Add your Load Balancer  **XYZ**-HAProxy-0
+   - Select **Add**.
 
 #. Click **+ Add Delay**.
 
@@ -223,7 +241,7 @@ Create Recovery Plan
 #. Fill out the following fields:
 
    - Local AZ
-       - **Virtual Network or Port Group** - Secondary
+       - **Virtual Network or Port Group** - Primary
 
    - Remote AZ
        - **Virtual Network or Port Group** - Secondary
@@ -301,9 +319,7 @@ Check Failover Status
 
 #. In **Prism Central** > select :fa:`bars` **> Virtual Infrastructure > VMs**.
 
-#. Verify that the DB and Web VMs are powered on.
-
-#. You can also browse to the Wordpress URL (e.g. http://drweb1.ntnxlab.local) in your *Initials*-**Windows-ToolsVM** VM and verify the site is accessible.
+#. Verify that the Load balancer, DB and Web VMs are powered on.
 
 Fail Back to the Original AZ (PC)
 +++++++++++++++++++++++++++++++++
@@ -329,7 +345,7 @@ Check Failover Status
 
 #. Click on **Failover** to see more details.
 
-#. Verify the site is accessible via the Wordpress URL using your *Initials*-**Windows-ToolsVM** VM.
+#. Verify that the Load balancer, DB and Web VMs are powered on.
 
 Takeaways
 +++++++++
