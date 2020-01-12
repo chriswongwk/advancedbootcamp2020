@@ -67,7 +67,7 @@ Welcome to Nutanix Advanced Technical Bootcamp Hong Kong !
 
 Please follow the lab guides and complete your **labs**. 
 
-**Access your lab guide online for copy and paste : https://bit.ly/2QJOqe2 **
+Access your lab guide **online** for **copy and paste** : https://bit.ly/2QJOqe2 
 
 
 Please use install a VPN client **(faster)** to connect to the remote lab in US. https://xlv-uswest1.nutanix.com/
