@@ -124,8 +124,8 @@ In this exercise you will create a production-ready Kubernetes cluster with Nuta
 
    - **Name** - *Initials*-karbon
    - **Cluster** - Select *Your Nutanix cluster*
-   - **Kubernetes Version** - 1.13.4 (Default)
-   - **Host OS Image** - centos7.5.1804-ntnx-0.0 (Default)
+   - **Kubernetes Version** - 1.14.6 (Default)
+   - **Host OS Image** - centos7.5.1804-ntnx-0.2 (Default)
 
    .. figure:: images/3.png
 
